@@ -25,12 +25,12 @@ then
 cd livepoll
 ```
 
-## Terminal 1
+## Terminal 1 (backend)
 ```
 uvicorn main:app --reload --host 0.0.0.0 --port 8000
 ```
 
-## Terminal 2
+## Terminal 2 (frontend)
 ```
 npx localtunnel --port 8000
 ```
